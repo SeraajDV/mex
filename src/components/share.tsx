@@ -47,7 +47,7 @@ const Share = () => {
           <div className="relative overflow-hidden rounded-xl">
             <NextImage
               src={previewURL}
-              alt
+              alt="preview"
               width={600}
               height={600}
               className={`w-full ${settings.type === "original" ? "h-full object-contain" : settings.type === "square" ? "aspect-square object-cover" : "aspect-video object-cover"}`}
